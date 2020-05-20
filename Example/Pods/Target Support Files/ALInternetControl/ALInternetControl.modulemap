@@ -1,0 +1,6 @@
+framework module ALInternetControl {
+  umbrella header "ALInternetControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

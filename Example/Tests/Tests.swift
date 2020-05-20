@@ -1,5 +1,4 @@
 import XCTest
-import ALInternetControl
 
 class Tests: XCTestCase {
     

@@ -1,0 +1,23 @@
+PODS:
+  - ALInternetControl (0.1.1):
+    - ReachabilitySwift (~> 5)
+  - ReachabilitySwift (5.0.0)
+
+DEPENDENCIES:
+  - ALInternetControl (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - ReachabilitySwift
+
+EXTERNAL SOURCES:
+  ALInternetControl:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ALInternetControl: fe2d0e25547f9541e789d86b5b0e5f11ef0ccecd
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+
+PODFILE CHECKSUM: 6c121cb76aa2b1b97841b5c8095c3ddac309e3a8
+
+COCOAPODS: 1.9.0

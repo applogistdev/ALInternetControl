@@ -9,7 +9,21 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## Usage
+
+```swift
+import ALInternetControl
+
+
+var internetCont: ALInternetControl?
+
+func application(_ application: UIApplication,
+        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+
+    internetCont = ALInternetControl.init(errorVC: NoInternetViewController())
+    return true
+}
+```
 
 ## Installation
 

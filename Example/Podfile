@@ -2,10 +2,4 @@ use_frameworks!
 
 target 'ALInternetControl_Example' do
   pod 'ALInternetControl', :path => '../'
-
-  target 'ALInternetControl_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
